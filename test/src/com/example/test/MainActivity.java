@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 		if (id == R.id.action_settings) {
 			return true;
 		}
-		System.out.print("ssh");
+		System.out.print("test2");
 		return super.onOptionsItemSelected(item);
 	}
 }
