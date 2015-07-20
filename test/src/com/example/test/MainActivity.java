@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
 		if (id == R.id.action_settings) {
 			return true;
 		}
+		System.out.print("sss");
 		return super.onOptionsItemSelected(item);
 	}
 }
